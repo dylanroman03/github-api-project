@@ -1,0 +1,31 @@
+.mat-card {
+  margin-top: 1.5em;
+}
+
+.mat-card:hover {
+  background-color: rgba(153, 153, 153, 0.87);
+}
+
+h2 {
+  font-size: 20px;
+}
+
+.showResult {
+  padding: 1em;
+}
+
+input {
+    color: #444;
+    border: none;
+    border-radius: 100px;
+    background-color: #fff;
+    padding: 5px 16px;
+    margin-left: 8px;
+    width: 180px;
+    max-width: 240px;
+    height: 50%;
+}
+
+.avatar {
+  width: 100%;
+}
