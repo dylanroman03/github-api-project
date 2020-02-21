@@ -7,16 +7,7 @@ import { SearchService } from '../search.service';
   styleUrls: ['./search.component.css']
 })
 export class SearchComponent implements OnInit {
-  users = {
-    items : [
-      {
-        login : "dylan"
-      },
-      {
-        login : "roman"
-      }
-    ]
-  };
+  users: any;
 
   constructor(
     private searchService: SearchService
@@ -26,6 +17,7 @@ export class SearchComponent implements OnInit {
   }
 
   search(user) {
-    this.users = this.searchService.getSearch(user);
+    this.searchService.getSearch(user)
+      .subscribe(users => this.users = users)
   }
 }

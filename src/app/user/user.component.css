@@ -1,0 +1,32 @@
+.div-avatar {
+  display: flex;
+  width: 100%;
+}
+
+.mat-card-avatar {
+  margin-left: 30%;
+  margin-right: 30%;
+  width: 40%;
+  height: auto;
+}
+
+h1 {
+  text-align: center;
+  width: 100%;
+}
+
+h2 {
+  margin-top: 0;
+  color: #635e5e;
+  text-align: center;
+  width: 100%;
+}
+
+.div-text{
+  display: flex;
+  flex-direction: column;
+}
+
+.mat-card {
+  margin: 1em 1em 1em 1em;
+}

@@ -1,3 +1,11 @@
 <div *ngIf="user">
-    <h1>{{user.login}}</h1>
+  <mat-card>
+      <div class="div-avatar">
+        <img mat-card-avatar src="{{user.avatar_url}}" alt="{{user.login}}">
+      </div>
+      <div class="div-text">
+        <h1>{{user.login}}</h1>
+        <h2>{{user.name}}</h2>
+      </div>
+  </mat-card>
 </div>

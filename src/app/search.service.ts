@@ -13,10 +13,7 @@ export class SearchService {
   ) { }
 
   getSearch(user){
-    this.http.get(this.url + user)
-      .subscribe(data => {
-        this.users = data
-      })
-    return this.users;
+    return this.http.get(this.url + user)
   }
+
 }
